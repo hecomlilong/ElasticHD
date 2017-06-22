@@ -115,6 +115,7 @@ cd ./main
 statik -src=../dist
 # go build
 GO_ENABLED=0 GOOS=windows GOARCH=amd64  go build -o elasticHD.exe github.com/elasticHD/main
+#  GO_ENABLED=0 GOOS=darwin GOARCH=amd64  go build -o elasticHD ../ElasticHD/main
 ```
 ## Docker Quick Start:
 ```
